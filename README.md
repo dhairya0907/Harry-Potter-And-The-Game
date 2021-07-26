@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
 	<a href="https://expo.io/@dhairya/Chat-Application">
-		<img src="/Images/logo.png" alt="Logo" width="120" height="100">
+		<img src="/Images/logo.png" alt="Logo" width="200" height="200">
 	</a>
 	<h3 align="center">Chat Application</h3>
 	<p align="center">Simple Chat Application build using React Native and Firebase.

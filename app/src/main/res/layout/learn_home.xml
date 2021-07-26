@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/learnhomebackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/learn_home_background" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:text="About"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/byearone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="185dp"
+        android:text="YEAR ONE"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/byeartwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/about"
+        android:layout_alignBottom="@+id/byearone"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="-1dp"
+        android:text="YEAR TWO"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/byearthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/byearone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="53dp"
+        android:text="YEAR THREE"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/byearfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/byearone"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="254dp"
+        android:text="YEAR FOUR"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/byearfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/byeartwo"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="253dp"
+        android:text="YEAR FIVE"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/byearsix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/byearthree"
+        android:layout_alignTop="@+id/byearfour"
+        android:text="YEAR SIX"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/byearseven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/byeartwo"
+        android:layout_alignTop="@+id/byearfour"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="58dp"
+        android:text="YEAR SEVEN"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/didyouknow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
+        android:text="Did You Know?"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/bclicktoknow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:text="  Click To Know!!  "
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

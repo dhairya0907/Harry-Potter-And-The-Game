@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/owlbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/owlbackground" />
+
+    <TextView
+        android:id="@+id/qnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="63dp"
+        android:text="Question Number:"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/questionnumber"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/qnumber"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="0dp"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/hquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/qnumber"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="102dp"
+        android:text="Question:"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/questiontext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="139dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/questionnumber"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="0dp"
+        android:text="of"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tquesionnumber"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/of"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="0dp"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/optionone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-157dp"
+        android:layout_marginTop="316dp"
+        android:layout_toEndOf="@+id/qnumber"
+        android:background="@drawable/button_bg_transparent"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/optiontwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/of"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-141dp"
+        android:layout_marginBottom="215dp"
+        android:background="@drawable/button_bg_transparent"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/optionthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/optionone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="158dp"
+        android:background="@drawable/button_bg_transparent"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/optionfour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/of"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-142dp"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/button_bg_transparent"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:text="Time Left:"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/timeleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

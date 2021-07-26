@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".maingame"
+    android:background="@drawable/leaderboardschoolbackground">
+
+
+    <TextView
+        android:id="@+id/see"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:text="See Where You Stand...."
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/hogwarts"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="Hogwarts"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/house"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="254dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="house"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

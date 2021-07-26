@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/dormitorybackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/dormitory_background" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="74dp" />
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profile_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="58dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ugname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/uname"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="136dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/profile_image"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="-139dp"
+        android:text="Galleons"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/uscore"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/uname"
+        android:layout_alignTop="@+id/score"
+        android:layout_marginStart="-39dp"
+        android:layout_marginTop="41dp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/profile_image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-138dp"
+        android:layout_marginBottom="327dp"
+        android:text="Rank"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/srank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/uname"
+        android:layout_alignBottom="@+id/rank"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="-41dp"
+        android:text="School Rank"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/usrank"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/srank"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="0dp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hrank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/srank"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="242dp"
+        android:text="House Rank"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/uhrank"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/srank"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="-43dp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/uscore"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="182dp"
+        android:text="Year"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/yeardetail"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-179dp"
+        android:layout_marginBottom="133dp"
+        android:layout_toStartOf="@+id/srank"
+        android:text="Your Are Currently In Year:"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/yearno"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/uscore"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="124dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="reset"
+        android:text="Reset"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

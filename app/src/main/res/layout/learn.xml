@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="12dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_container"
+        android:padding="20dp"
+        android:clipToPadding="false"
+        android:clipChildren="false">
+
+        <com.yuyakaido.android.cardstackview.CardStackView
+            android:id="@+id/card_stack_view"
+            android:layout_width="332dp"
+            android:layout_height="495dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp">
+
+        </com.yuyakaido.android.cardstackview.CardStackView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

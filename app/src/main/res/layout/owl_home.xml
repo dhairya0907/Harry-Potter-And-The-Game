@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/lowlhomebackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/owlhomebackground" />
+
+    <TextView
+        android:id="@+id/owlhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:text="Take Your O.W.L. HERE"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/obyearone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="242dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="YEAR ONE"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/obyeartwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/obyearone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="YEAR Two"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/obyearthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/owlhere"
+        android:layout_alignBottom="@+id/obyearone"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="YEAR Three"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/obyearfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/obyearone"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="YEAR FOUR"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/obyearfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/obyeartwo"
+        android:layout_alignTop="@+id/obyearfour"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="YEAR FIVE"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/obyearsix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/obyearthree"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="312dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="YEAR SIX"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/obyearseven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/obyearthree"
+        android:layout_alignTop="@+id/obyearfour"
+        android:layout_marginStart="-95dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="YEAR SEVEN"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

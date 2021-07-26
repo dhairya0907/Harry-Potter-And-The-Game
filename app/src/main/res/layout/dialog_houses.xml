@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="As Harry Potter Once Said:'The Sorting Hat Takes Your Choice into Account',\n\n So, Where you want to go? But Once You Select You Have To Prove That You Belong To Particular House.
+\n\nChoose Wisely!\n"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="gryffindor"
+        android:text="gryffindor" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="hufflepuff"
+        android:text="hufflepuff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ravenclaw"
+        android:text="ravenclaw" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="slytherin"
+        android:text="Slytherin" />
+</LinearLayout>

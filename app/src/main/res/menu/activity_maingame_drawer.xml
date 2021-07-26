@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dormitory_icon"
+            android:title="Your Dormitory"/>
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/ic_learn_icon"
+            android:title="Learn" />
+        <item
+            android:id="@+id/nav_owl"
+            android:icon="@drawable/ic_owl_icon"
+            android:title="O.W.L." />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_leaderboard_icon"
+            android:title="Leaderboard" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_hall"
+                android:icon="@drawable/ic_great_hall_icon"
+                android:title="The Great Hall" />
+            <item
+                android:id="@+id/nav_room"
+                android:icon="@drawable/ic_common_room_icon"
+                android:title="House Common Room" />
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_contact_icon"
+                android:title="Send Owl To  Us" />
+        </menu>
+    </item>
+    <item android:title="Take a Break">
+        <menu>
+            <item android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_signout_icon"
+                android:title="Sign Out"/>
+        </menu>
+    </item>
+
+</menu>

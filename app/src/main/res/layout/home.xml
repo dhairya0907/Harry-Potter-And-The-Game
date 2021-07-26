@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/homebackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/home_background" />
+
+    <Button
+        android:id="@+id/buttondormitory"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonlearn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="258dp"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"
+        android:text="Dormitory" />
+
+    <Button
+        android:id="@+id/buttonlearn"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="265dp"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"
+        android:text="Learn" />
+
+    <Button
+        android:id="@+id/buttonowl"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttondormitory"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="195dp"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"
+        android:text="O.w.l" />
+
+    <Button
+        android:id="@+id/buttonleaderboard"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttondormitory"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="127dp"
+        android:background="@drawable/button_bg_transparent"
+        android:text="leadreboard"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonowlus"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttondormitory"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"
+        android:text="OWL US" />
+
+    <TextView
+        android:id="@+id/homeenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:text="Enter InTo The World Of Magic"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

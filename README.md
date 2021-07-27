@@ -33,7 +33,7 @@
 ## About The Project
 
 <p align="center">
-	<a href="https://expo.io/@dhairya/Chat-Application">
+	<a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/blob/main/Images/harry-potter-and-the-game-demo.gif">
 		<img alt="Harry Potter and The Game Demo" src="/Images/harry-potter-and-the-game-demo.gif" />
 	</a>
 	<p align="center">Harry Potter and The Game Demo

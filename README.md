@@ -34,7 +34,7 @@
 
 <p align="center">
 	<a href="https://expo.io/@dhairya/Chat-Application">
-		<img alt="Harry Potter and The Game Demo" src="/Images/chat-application-demo.gif" />
+		<img alt="Harry Potter and The Game Demo" src="/Images/harry-potter-and-the-game-demo.gif" />
 	</a>
 	<p align="center">Harry Potter and The Game Demo
 		<br/>

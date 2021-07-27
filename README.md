@@ -7,7 +7,7 @@
 	<p align="center">Quiz and chat application build using Android and Firebase.
 	 <br /><a href="https://expo.io/@dhairya/Chat-Application">APK</a>
 		· <a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/issues">Report Bug</a>
-		· <a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/issuess">Request Feature</a>
+		· <a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/issues">Request Feature</a>
 	</p>
 </p>
 

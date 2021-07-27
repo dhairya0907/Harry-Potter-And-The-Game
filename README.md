@@ -41,13 +41,9 @@
 	</p>
 </p>
 
-In this project I have build simple chat application using React Native and Firebase. Using this application you can chat with any user one on one or you can chat to all the user in group. User list is also updated, from recent to oldest message.
+Harry Potter and The Game is an Android application, in which user can create an account. After login user will be able to learn about Harry Potter, learning component uses swipe mechanism to load different facts to learn. Second component is quiz where user can test their knowledge about Harry Potter, this component is divided into 7 levels representing 7 years of Hogwarts. Third part is chatting component, where user will be able to chat within their Hogwarts house or with ever user in group chat.
 
-Here's why I use React Native and Firebase :
-* I used React Native because because it allow to build both Android and IOS application from single codebase.
-* Expo provides over-the-air update.
-* Firebase give easy to implement user authentication.
-* Real time database by Firebase is best option to update chats in real time.
+There is also user Dashboard where user will be able to see their details like total score, current level and rank. And in leaderboard section user will be able to compare their ranks with every player in game or within there Hogwarts house.
 
 ### Built With
 * [Android](https://developer.android.com/)

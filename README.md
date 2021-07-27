@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-	<a href="https://expo.io/@dhairya/Chat-Application">
+	<a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/blob/main/Images/logo.png">
 		<img src="/Images/logo.png" alt="Logo" width="100" height="100">
 	</a>
 	<h3 align="center">Harry Potter and The Game</h3>
@@ -102,4 +102,4 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya090
 
 Dhairya Sharma - [@dhairya_0907](https://twitter.com/dhairya_0907) - dhairya.sharma532@gmail.com.com
 
-Project Github Link: [https://github.com/dhairya0907/Harry-Potter-And-The-Game](https://github.com/dhairya0907/Chat-Application)
+Project Github Link: [https://github.com/dhairya0907/Harry-Potter-And-The-Game](https://github.com/dhairya0907/Harry-Potter-And-The-Game)

@@ -3,9 +3,9 @@
 	<a href="https://expo.io/@dhairya/Chat-Application">
 		<img src="/Images/logo.png" alt="Logo" width="200" height="200">
 	</a>
-	<h3 align="center">Chat Application</h3>
-	<p align="center">Simple Chat Application build using React Native and Firebase.
-	 <br /><a href="https://expo.io/@dhairya/Chat-Application">Expo Project Page</a>
+	<h3 align="center">Harry Potter and The Game</h3>
+	<p align="center">Quiz and chat application build using Android and Firebase.
+	 <br /><a href="https://expo.io/@dhairya/Chat-Application">APK</a>
 		·<a href="https://github.com/dhairya0907/Chat-Application/issues">Report Bug</a>
 		· <a href="https://github.com/dhairya0907/Chat-Application/issues">Request Feature</a>
 	</p>
@@ -34,9 +34,9 @@
 
 <p align="center">
 	<a href="https://expo.io/@dhairya/Chat-Application">
-		<img alt="Chat Application Demo" src="/Images/chat-application-demo.gif" />
+		<img alt="Harry Potter and The Game Demo" src="/Images/chat-application-demo.gif" />
 	</a>
-	<p align="center">Chat Application Demo
+	<p align="center">Harry Potter and The Game Demo
 		<br/>
 	</p>
 </p>

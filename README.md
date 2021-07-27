@@ -5,7 +5,7 @@
 	</a>
 	<h3 align="center">Harry Potter and The Game</h3>
 	<p align="center">Quiz and chat application build using Android and Firebase.
-	 <br /><a href="https://expo.io/@dhairya/Chat-Application">APK</a>
+	 <br /><a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/releases/tag/v1.0.0">APK</a>
 		· <a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/issues">Report Bug</a>
 		· <a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/issues">Request Feature</a>
 	</p>
@@ -103,5 +103,3 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya090
 Dhairya Sharma - [@dhairya_0907](https://twitter.com/dhairya_0907) - dhairya.sharma532@gmail.com.com
 
 Project Github Link: [https://github.com/dhairya0907/Harry-Potter-And-The-Game](https://github.com/dhairya0907/Chat-Application)
-
-Project APK: [https://expo.io/@dhairya/Chat-Application](https://expo.io/@dhairya/Chat-Application) 

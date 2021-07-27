@@ -1,19 +1,19 @@
 <!-- PROJECT LOGO -->
 <p align="center">
 	<a href="https://expo.io/@dhairya/Chat-Application">
-		<img src="/Images/logo.png" alt="Logo" width="200" height="200">
+		<img src="/Images/logo.png" alt="Logo" width="100" height="100">
 	</a>
 	<h3 align="center">Harry Potter and The Game</h3>
 	<p align="center">Quiz and chat application build using Android and Firebase.
 	 <br /><a href="https://expo.io/@dhairya/Chat-Application">APK</a>
-		·<a href="https://github.com/dhairya0907/Chat-Application/issues">Report Bug</a>
-		· <a href="https://github.com/dhairya0907/Chat-Application/issues">Request Feature</a>
+		· <a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/issues">Report Bug</a>
+		· <a href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/issuess">Request Feature</a>
 	</p>
 </p>
 
 <!-- PROJECT SHIELDS -->
 <div align="center">
-	<a target="_blank" href="https://github.com/dhairya0907/Chat-Application/blob/main/LICENSE">
+	<a target="_blank" href="https://github.com/dhairya0907/Harry-Potter-And-The-Game/blob/main/LICENSE">
 		<img src="https://badgen.net/badge/license/MIT/blue">
 	</a>
 	<a target="_blank" href="https://www.linkedin.com/in/dhairyasharma0907/">
@@ -50,9 +50,9 @@ Here's why I use React Native and Firebase :
 * Real time database by Firebase is best option to update chats in real time.
 
 ### Built With
-* [React Native](https://reactnative.dev/)
+* [Android](https://developer.android.com/)
 * [Firebase](https://firebase.google.com/)
-* [Expo](https://expo.io/)
+* [Java](https://www.java.com/en/)
 
 <!-- * [Screenshots website deployed using Vercel](https://vercel.com/) -->
 
@@ -70,49 +70,30 @@ To host web application on user localhost follow below steps :
 
 ### Prerequisites
 
-* yarn
-  ```sh
-  npm install --global yarn
-  ```
-* expo
-  ```sh
-  npm install --global expo-cli
-  ```
+* [Android Studio](https://developer.android.com/studio)
 * Create account on [Firebase](https://firebase.google.com/)
-* Create account on [Expo](https://expo.io/)
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/dhairya0907/Chat-Application.git
+   git clone https://github.com/dhairya0907/Harry-Potter-And-The-Game.git
    ```
-2. Install YARN packages
-   ```sh
-   yarn install
-   ```
-3. Run
-   ```sh
-   expo start
-   ```
-4. Scan barcode from your mobile to run on Expo Go.
-
-5. To Build Standalone Apps Run
-    ```sh
-    expo build:android or expo build:ios
-    ```
+2. Add ``` google-services.json ``` from firebase in ``` app ``` folder.
+3. Import [Firebase_Quiz_Questions_and_Learn.json](https://github.com/dhairya0907/Harry-Potter-And-The-Game/blob/main/Firebase_Quiz_Questions_and_Learn.json) to real time database of firebase.
+4. Run project from Android Studio.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/dhairya0907/Chat-Application/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/dhairya0907/Harry-Potter-And-The-Game/issues) for a list of proposed features (and known issues).
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya0907/Chat-Application/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya0907/Harry-Potter-And-The-Game/blob/main/LICENSE) for more information.
 
 
 
@@ -121,6 +102,6 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya090
 
 Dhairya Sharma - [@dhairya_0907](https://twitter.com/dhairya_0907) - dhairya.sharma532@gmail.com.com
 
-Project Github Link: [https://github.com/dhairya0907/Chat-Application](https://github.com/dhairya0907/Chat-Application)
+Project Github Link: [https://github.com/dhairya0907/Harry-Potter-And-The-Game](https://github.com/dhairya0907/Chat-Application)
 
-Project Expo Page Link: [https://expo.io/@dhairya/Chat-Application](https://expo.io/@dhairya/Chat-Application) 
+Project APK: [https://expo.io/@dhairya/Chat-Application](https://expo.io/@dhairya/Chat-Application) 

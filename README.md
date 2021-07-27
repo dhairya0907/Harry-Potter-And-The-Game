@@ -57,16 +57,16 @@ Here's why I use React Native and Firebase :
 <!-- * [Screenshots website deployed using Vercel](https://vercel.com/) -->
 
 ### What I learned
-* How to update chats in real time.
-* How to authenticate user and have unique username.
-* How to develop both IOS and Android application at once.
+* Learned to integrate a database with Android application.
+* How to implemented user authentication and Real Time leader-board.
+* Learned how to get and use user location.
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To host web application on user localhost follow below steps :
+To start working on application follow below steps :
 
 ### Prerequisites
 
